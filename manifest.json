@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Example vanilla behavior pack",
-        "name": "Vanilla Behavior Pack",
-        "uuid": "ee649bcf-256c-4013-9068-6a802b89d756",
+        "description": "SM behavior pack",
+        "name": "Super Monster survival Behavior Pack",
+        "uuid": "d25eb4a8-551c-407c-8358-bfbcd2c2c180",
         "version": [ 0, 0, 1 ],
         "min_engine_version": [ 1, 21, 70 ]
     },
@@ -11,13 +11,7 @@
         {
             "description": "Example vanilla behavior pack",
             "type": "data",
-            "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
-            "version": [0, 0, 1]
-        }
-    ],
-    "dependencies": [
-        {
-            "uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
+            "uuid": "a0e69d57-a551-4c2d-9130-55e142fbb9ff",
             "version": [0, 0, 1]
         }
     ]
