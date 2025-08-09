@@ -5,7 +5,7 @@
         "name": "Super Monster survival Behavior Pack",
         "uuid": "d25eb4a8-551c-407c-8358-bfbcd2c2c180",
         "version": [ 0, 0, 1 ],
-        "min_engine_version": [ 1, 21, 70 ]
+        "min_engine_version": [ 1, 21, 90 ]
     },
     "modules": [
         {
