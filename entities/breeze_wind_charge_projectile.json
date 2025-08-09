@@ -8,10 +8,10 @@
     },
     "components": {
       "minecraft:explode": {
-        "power": 3.0,
+        "power": 6.0,
         "particle_effect": "breeze_wind_burst",
         "sound_effect": "breeze_wind_charge.burst",
-        "knockback_scaling": 0.6,
+        "knockback_scaling": 1.2,
         "negates_fall_damage": false,
         "causes_fire": false,
         "breaks_blocks": false,
@@ -32,7 +32,7 @@
           },
           "wind_burst_on_hit": {}
         },
-        "power": 0.7,
+        "power": 1.4,
         "gravity": 0.00,
         "inertia": 1.0,
         "liquid_inertia": 1.0,
