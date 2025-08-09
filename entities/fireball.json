@@ -12,7 +12,7 @@
         "minecraft:explode": {
           "fuse_length": 0,
           "fuse_lit": true,
-          "power": 1,
+          "power": 5,
           "causes_fire": true,
           "fire_affected_by_griefing": true,
           "destroy_affected_by_griefing": true
@@ -28,7 +28,7 @@
       "minecraft:projectile": {
         "on_hit": {
           "impact_damage": {
-            "damage": 6,
+            "damage": 10,
             "knockback": false,
             "semi_random_diff_damage": false
           },
@@ -40,7 +40,7 @@
             }
           }
         },
-        "power": 1.6,
+        "power": 8,
         "gravity": 0.00,
         "inertia": 1,
         "liquid_inertia": 1,

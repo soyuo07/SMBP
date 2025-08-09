@@ -19,14 +19,14 @@
           "height": 2.08
         },
         "minecraft:health": {
-          "value": 16,
-          "max": 16
+          "value": 40,
+          "max": 40
         },
         "minecraft:movement": {
           "value": 0.75
         },
         "minecraft:attack": {
-          "damage": 6
+          "damage": 12
         },
         "minecraft:area_attack" : {
           "damage_range": 0.15,
@@ -54,14 +54,14 @@
           "height": 1.02
         },
         "minecraft:health": {
-          "value": 4,
-          "max": 4
+          "value": 10,
+          "max": 10
         },
         "minecraft:movement": {
           "value": 0.66
         },
         "minecraft:attack": {
-          "damage": 4
+          "damage": 8
         },
         "minecraft:area_attack" : {
           "damage_range": 0.15,
@@ -89,14 +89,14 @@
           "height": 0.52
         },
         "minecraft:health": {
-          "value": 1,
-          "max": 1
+          "value": 2.5,
+          "max": 2.5
         },
         "minecraft:movement": {
           "value": 0.6
         },
         "minecraft:attack": {
-          "damage": 3
+          "damage": 6
         },
         "minecraft:area_attack" : {
           "damage_range": 0.15,

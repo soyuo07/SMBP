@@ -18,10 +18,10 @@
           "value": 0.5
         },
         "minecraft:movement": {
-          "value": 0.35
+          "value": 0.5
         },
         "minecraft:underwater_movement": {
-          "value": 0.08
+          "value": 0.32
         }
       },
 
@@ -56,9 +56,9 @@
         },
         "minecraft:behavior.ranged_attack": {
           "priority": 3,
-          "attack_interval_min": 1.0,
-          "attack_interval_max": 3.0,
-          "attack_radius": 10.0,
+          "attack_interval_min": 0.1,
+          "attack_interval_max": 1.0,
+          "attack_radius": 15.0,
           "swing": true
         }
       },
@@ -77,7 +77,7 @@
 
       "minecraft:melee_mode": {
         "minecraft:attack": {
-          "damage": 3
+          "damage": 6
         },
         "minecraft:behavior.melee_box_attack": {
           "can_spread_on_fire": true,
@@ -131,8 +131,6 @@
     "components": {
       "minecraft:nameable": {
       },
-
-      // Zombie Components
       "minecraft:type_family": {
         "family": [ "drowned", "zombie", "undead", "monster", "mob" ]
       },
@@ -148,7 +146,7 @@
         "height": 1.9
       },
       "minecraft:underwater_movement": {
-        "value": 0.06
+        "value": 0.32
       },
       "minecraft:movement.generic": {
       },
@@ -157,8 +155,8 @@
       "minecraft:can_climb": {
       },
       "minecraft:health": {
-        "value": 20,
-        "max": 20
+        "value": 50,
+        "max": 50
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -170,7 +168,7 @@
         ]
       },
       "minecraft:movement": {
-        "value": 0.23
+        "value": 0.5
       },
       "minecraft:burns_in_daylight": {
       },
@@ -444,8 +442,8 @@
       },
       "minecraft:behavior.look_at_player": {
         "priority": 8,
-        "look_distance": 6,
-        "probability": 0.02
+        "look_distance": 12,
+        "probability": 0.2
       },
       "minecraft:behavior.random_look_around": {
         "priority": 9

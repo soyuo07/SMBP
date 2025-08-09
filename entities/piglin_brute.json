@@ -62,7 +62,7 @@
           "track_target": true
         },
         "minecraft:attack": {
-          "damage": 7
+          "damage": 14
         },
         "minecraft:equipment": {
           "table": "loot_tables/entities/piglin_brute_gear.json"
@@ -80,7 +80,7 @@
           "broadcast_anger_on_being_attacked": true,
           "broadcast_range": 16,
           "broadcast_targets": [
-            "piglin" // we want to broadcast to both normal piglins and piglin_brute
+            "piglin"
           ],
           "calm_event": {
             "event": "become_calm_event",

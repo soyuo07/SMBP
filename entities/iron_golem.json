@@ -63,8 +63,8 @@
         "table": "loot_tables/entities/iron_golem.json"
       },
       "minecraft:health": {
-        "value": 100,
-        "max": 100
+        "value": 500,
+        "max": 500
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -78,7 +78,7 @@
         ]
       },
       "minecraft:movement": {
-        "value": 0.25
+        "value": 0.37
       },
       "minecraft:navigation.walk": {
         "can_path_over_water": false,
@@ -105,7 +105,7 @@
               }
             },
             "use_item": true,
-            "health_amount": 25,
+            "health_amount": 100,
             "play_sounds": "irongolem.repair",
             "interact_text": "action.interact.repair"
           }
@@ -113,8 +113,8 @@
       },
       "minecraft:attack": {
         "damage": {
-          "range_min": 7,
-          "range_max": 21
+          "range_min": 20,
+          "range_max": 60
         }
       },
       "minecraft:damage_sensor": {

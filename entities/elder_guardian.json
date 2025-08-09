@@ -35,8 +35,8 @@
       "minecraft:jump.static": {
       },
       "minecraft:health": {
-        "value": 80,
-        "max": 80
+        "value": 160,
+        "max": 160
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -51,10 +51,10 @@
         "value": 0.3
       },
       "minecraft:underwater_movement": {
-        "value": 0.3
+        "value": 0.5
       },
       "minecraft:attack": {
-        "damage": 5
+        "damage": 10
       },
       "minecraft:follow_range": {
         "value": 16,
@@ -85,7 +85,7 @@
         "must_see": true
       },
       "minecraft:behavior.guardian_attack": {
-        "priority": 4
+        "priority": 15
       },
       "minecraft:behavior.move_towards_home_restriction": {
         "priority": 5,

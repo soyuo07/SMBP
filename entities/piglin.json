@@ -90,7 +90,7 @@
           "track_target": true
         },
         "minecraft:attack": {
-          "damage": 5
+          "damage": 10
         },
         "minecraft:equipment": {
           "table": "loot_tables/entities/piglin_gear_melee.json"
@@ -108,7 +108,7 @@
           "broadcast_anger_on_being_attacked": true,
           "broadcast_range": 16,
           "broadcast_targets": [
-            "piglin" // we want to broadcast to both normal piglins and piglin_brute
+            "piglin"
           ],
           "calm_event": {
             "event": "become_calm_event",
@@ -154,7 +154,7 @@
           "value": 0.5
         },
         "minecraft:movement": {
-          "value": 0.42
+          "value": 0.5
         },
         "minecraft:experience_reward": {
           "on_death": "query.last_hit_by_player ? 1 + (query.equipment_count * Math.Random(1,2)) : 0"
@@ -183,7 +183,7 @@
           }
         },
         "minecraft:movement": {
-          "value": 0.35
+          "value": 0.43
         },
         "minecraft:barter": {
           "barter_table": "loot_tables/entities/piglin_barter.json",
@@ -464,8 +464,8 @@
         "suffocate_time": 0
       },
       "minecraft:health": {
-        "value": 16,
-        "max": 16
+        "value": 40,
+        "max": 40
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [

@@ -47,7 +47,7 @@
       },
       "minecraft:melee_attack": {
         "minecraft:attack": {
-          "damage": 3
+          "damage": 7.5
         },
         "minecraft:environment_sensor": {
           "triggers": {
@@ -216,8 +216,8 @@
         "suffocate_time": 0
       },
       "minecraft:health": {
-        "value": 24,
-        "max": 24
+        "value": 60,
+        "max": 60
       },
       "minecraft:can_join_raid": {
       },
@@ -246,7 +246,7 @@
         ]
       },
       "minecraft:movement": {
-        "value": 0.35
+        "value": 0.43
       },
       "minecraft:navigation.walk": {
         "can_path_over_water": true
@@ -416,7 +416,7 @@
         "remove": { "component_groups": [ "minecraft:melee_attack" ] },
         "add": { "component_groups": [ "minecraft:ranged_attack" ] }
       },
-      "minecraft:start_celebrating": { // Event must be called exactly this for village to fire it when a raid is lost
+      "minecraft:start_celebrating": {
         "sequence": [
           {
             "add": { "component_groups": [ "minecraft:celebrate" ] }

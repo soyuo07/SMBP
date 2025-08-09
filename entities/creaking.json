@@ -31,11 +31,11 @@
         "height": 2.7
       },
       "minecraft:health": {
-        "value": 1,
-        "max": 1
+        "value": 100,
+        "max": 100
       },
       "minecraft:attack": {
-        "damage": 3
+        "damage": 6
       },
       "minecraft:nameable": {
       },
@@ -48,8 +48,8 @@
       "minecraft:movement.basic": {
       },
       "minecraft:variable_max_auto_step": {
-        "base_value": 1.0625, // 1 block + 1 pixel
-        "jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
+        "base_value": 1.0625,
+        "jump_prevented_value": 0.5625
       },
       "minecraft:follow_range": {
         "value": 32,
@@ -82,7 +82,6 @@
         },
         "minecraft:environment_sensor": {
           "triggers": [
-            // This trigger needs to be aligned with the analogous one defined in "minecraft:spawned_by_creaking_heart".
             {
               "filters": {
                 "all_of": [
@@ -157,7 +156,6 @@
         },
         "minecraft:environment_sensor": {
           "triggers": [
-            // This trigger needs to be aligned with the analogous one defined in "minecraft:spawned_by_player".
             {
               "filters": {
                 "all_of": [
@@ -178,7 +176,6 @@
               },
               "event": "minecraft:become_neutral"
             },
-            // Force the Creaking to despawn if the conditions for it being spawned are no longer met.
             {
               "filters": {
                 "all_of": [
@@ -191,7 +188,6 @@
                   {
                     "any_of": [
                       { "test": "home_distance", "operator": ">", "value": 34 },
-                      // These values correspond to the rising and setting times of the moon, as in Dimension::isMoonVisible
                       { "test": "hourly_clock_time", "operator": ">", "value": 23400 },
                       { "test": "hourly_clock_time", "operator": "<=", "value": 12600 }
                     ]
@@ -210,7 +206,6 @@
               },
               "event": "minecraft:crumble"
             },
-            // Make sure that the Creaking sways for exactly 5 ticks.
             {
               "filters": {
                 "all_of": [
@@ -323,7 +318,6 @@
           }
         },
         "minecraft:ambient_sound_interval": {
-          // We need to override the ambient sound to be something else or it will play even after the component is removed.
           "event_name": "undefined"
         }
       },

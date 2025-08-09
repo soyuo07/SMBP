@@ -213,8 +213,8 @@
         "height": 0.5
       },
       "minecraft:health": {
-        "value": 12,
-        "max": 12
+        "value": 30,
+        "max": 30
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -228,7 +228,7 @@
         ]
       },
       "minecraft:movement": {
-        "value": 0.3
+        "value": 0.5
       },
       "minecraft:navigation.climb": {
         "can_path_over_water": true

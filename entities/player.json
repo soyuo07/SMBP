@@ -62,7 +62,7 @@
       "minecraft:can_climb": {
       },
       "minecraft:movement": {
-        "value": 0.1
+        "value": 0.23
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -79,7 +79,7 @@
         ]
       },
       "minecraft:attack": {
-        "damage": 1
+        "damage": 3
       },
       "minecraft:exhaustion_values": {
         "heal": 6,

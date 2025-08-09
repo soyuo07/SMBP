@@ -53,8 +53,8 @@
         "family": [ "dragon", "mob" ]
       },
       "minecraft:health": {
-        "value": 200,
-        "max": 200
+        "value": 1000,
+        "max": 1000
       },
       "minecraft:boss": {
         "should_darken_sky": false,
@@ -73,10 +73,10 @@
         "max": 100
       },
       "minecraft:flying_speed": {
-        "value": 0.6
+        "value": 0.8
       },
       "minecraft:attack": {
-        "damage": 3
+        "damage": 9
       },
       "minecraft:damage_sensor": {
         "triggers": {

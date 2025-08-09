@@ -89,8 +89,8 @@
         "table": "loot_tables/entities/evocation_illager.json"
       },
       "minecraft:health": {
-        "value": 24,
-        "max": 24
+        "value": 80,
+        "max": 80
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -129,9 +129,9 @@
           {
             "min_activation_range": 0.0,
             "max_activation_range": 3.0,
-            "cooldown_time": 5.0,
+            "cooldown_time": 0.0,
             "weight": 3,
-            "cast_duration": 2.0,
+            "cast_duration": 0.0,
             "particle_color": "#FF664D59",
             "start_sound_event": "cast.spell",
             "sequence": [
@@ -328,7 +328,7 @@
           ]
         }
       },
-      "minecraft:start_celebrating": { // Event must be called exactly this for village to fire it when a raid is lost
+      "minecraft:start_celebrating": {
         "sequence": [
           {
             "add": { "component_groups": [ "minecraft:celebrate" ] }

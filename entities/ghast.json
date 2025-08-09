@@ -23,16 +23,15 @@
       "minecraft:nameable": {
       },
       "minecraft:health": {
-        "value": 10,
-        "max": 10
+        "value": 80,
+        "max": 80
       },
       "minecraft:collision_box": {
-        // The extra 0.02 prevents the Ghast from spawning in areas where it would suffocate.
         "width": 4.02,
         "height": 4.0
       },
       "minecraft:movement": {
-        "value": 0.03
+        "value": 0.1
       },
       "minecraft:navigation.float": {
         "can_path_over_water": true
