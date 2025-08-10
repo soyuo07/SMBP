@@ -96,7 +96,7 @@
           "cooldown_time": 0.75
         },
         "minecraft:attack": {
-          "damage": 1.0
+          "damage": 3.0
         },
         "minecraft:scale": {
           "value": 0.5
@@ -246,8 +246,8 @@
       "minecraft:nameable": {
       },
       "minecraft:health": {
-        "value": 40,
-        "max": 40
+        "value": 60,
+        "max": 60
       },
       "minecraft:experience_reward": {
         "on_bred": "Math.Random(1,7)",

@@ -35,8 +35,8 @@
         }
       },
       "minecraft:health": {
-        "value": 30,
-        "max": 30
+        "value": 50,
+        "max": 50
       },
       "minecraft:fire_immune": true,
       "minecraft:movement": {
@@ -69,8 +69,8 @@
         "priority": 8
       },
       "minecraft:behavior.ranged_attack": {
-        "attack_interval_min": 1,
-        "attack_interval_max": 3,
+        "attack_interval_min": 0.1,
+        "attack_interval_max": 0.5,
         "attack_radius": 15
       },
       "minecraft:behavior.hurt_by_target": {

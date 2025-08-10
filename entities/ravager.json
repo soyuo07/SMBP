@@ -220,13 +220,12 @@
             }
           },
           {
-            // Default, large knockback case
             "weight": 1
           }
         ]
       },
       "minecraft:attack": {
-        "damage": 12.0
+        "damage": 24.0
       },
       "minecraft:breathable": {
         "suffocate_time": 0,
@@ -237,8 +236,8 @@
         "width": 1.95
       },
       "minecraft:health": {
-        "max": 100,
-        "value": 100
+        "max": 150,
+        "value": 150
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -462,7 +461,7 @@
           ]
         }
       },
-      "minecraft:start_celebrating": { // Event must be called exactly this for village to fire it when a raid is lost
+      "minecraft:start_celebrating": {
         "sequence": [
           {
             "add": { "component_groups": [ "minecraft:celebrate" ] }

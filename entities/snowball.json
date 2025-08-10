@@ -16,7 +16,7 @@
         "on_hit": {
           "impact_damage": {
             "filter": "blaze",
-            "damage": 3,
+            "damage": 5,
             "knockback": true
           },
           "remove_on_hit": { },

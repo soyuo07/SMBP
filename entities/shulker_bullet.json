@@ -22,10 +22,10 @@
           },
           "mob_effect": {
             "effect": "levitation",
-            "durationeasy": 200,
-            "durationnormal": 200,
-            "durationhard": 200,
-            "amplifier": 0
+            "durationeasy": 25,
+            "durationnormal": 25,
+            "durationhard": 25,
+            "amplifier": 50
           },
           "remove_on_hit": {
           },

@@ -112,8 +112,8 @@
       "minecraft:burns_in_daylight": {},
       "minecraft:nameable": {},
       "minecraft:health": {
-        "value": 20,
-        "max": 20
+        "value": 50,
+        "max": 50
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -390,8 +390,8 @@
       },
       "minecraft:behavior.ranged_attack": {
         "priority": 0,
-        "attack_interval_min": 1.0,
-        "attack_interval_max": 3.0,
+        "attack_interval_min": 0.1,
+        "attack_interval_max": 0.5,
         "attack_radius": 15.0
       },
       "minecraft:behavior.hurt_by_target": {

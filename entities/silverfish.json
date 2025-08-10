@@ -55,8 +55,8 @@
         "table": "loot_tables/entities/silverfish.json"
       },
       "minecraft:health": {
-        "value": 8,
-        "max": 8
+        "value": 3,
+        "max": 3
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -85,7 +85,7 @@
       "minecraft:can_climb": {
       },
       "minecraft:attack": {
-        "damage": 1
+        "damage": 3
       },
       "minecraft:collision_box": {
         "width": 0.4,

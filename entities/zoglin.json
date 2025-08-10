@@ -16,7 +16,7 @@
         "minecraft:is_baby": {
         },
         "minecraft:attack": {
-          "damage": 0.5
+          "damage": 2
         },
         "minecraft:scale": {
           "value": 0.5
@@ -93,8 +93,8 @@
         "on_death": "query.last_hit_by_player ? 5 : 0"
       },
       "minecraft:health": {
-        "value": 40,
-        "max": 40
+        "value": 60,
+        "max": 60
       },
       "minecraft:knockback_resistance": {
         "value": 0.6

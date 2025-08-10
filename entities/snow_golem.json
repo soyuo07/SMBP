@@ -34,11 +34,11 @@
         "table": "loot_tables/entities/snowman.json"
       },
       "minecraft:health": {
-        "value": 4,
-        "max": 4
+        "value": 20,
+        "max": 20
       },
       "minecraft:movement": {
-        "value": 0.2
+        "value": 0.32
       },
       "minecraft:navigation.walk": {
         "avoid_water": true
@@ -50,7 +50,7 @@
       "minecraft:can_climb": {
       },
       "minecraft:attack": {
-        "damage": 2
+        "damage": 6
       },
       "minecraft:damage_sensor": {
         "triggers": {
