@@ -1,6 +1,7 @@
 time set midnight
 tag @a add Death
 tag @e[type=player] remove Death
+tag @e[type=player,tag=!Death] remove DeathEvent
 tag @a[tag=Death] add DeathEvent
 scoreboard players set @a[tag=!DeathEvent] DeathEvent 0
 scoreboard players add @a[tag=DeathEvent] DeathEvent 1
