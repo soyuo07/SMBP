@@ -9,7 +9,7 @@
     },
     "modules": [
         {
-            "description": "Example vanilla behavior pack",
+            "description": "SM behavior pack",
             "type": "data",
             "uuid": "a0e69d57-a551-4c2d-9130-55e142fbb9ff",
             "version": [0, 0, 1]
