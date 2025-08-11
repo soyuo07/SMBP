@@ -1,5 +1,6 @@
 gamerule sendcommandfeedback false
 gamerule immediaterespawn true
+tickingarea add ~-2 310 ~-2 ~2 320 ~2 tick
 fill ~-2 310 ~-2 ~2 310 ~2 barrier
 summon armor_stand "oper" ~ 311 ~
 tag @e[type=armor_stand,name=oper] add oper
