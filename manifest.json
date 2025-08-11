@@ -2,16 +2,16 @@
     "format_version": 2,
     "header": {
         "description": "SM behavior pack",
-        "name": "Super Monster survival Behavior Pack",
-        "uuid": "d25eb4a8-551c-407c-8358-bfbcd2c2c180",
+        "name": "Super Monster survival Behavior Pack 2.0",
+        "uuid": "5f880351-0b4b-4a68-af4b-bdad042e27dd",
         "version": [ 0, 0, 1 ],
         "min_engine_version": [ 1, 21, 90 ]
     },
     "modules": [
         {
-            "description": "SM behavior pack",
+            "description": "SM behavior pack 2.0",
             "type": "data",
-            "uuid": "a0e69d57-a551-4c2d-9130-55e142fbb9ff",
+            "uuid": "d84df5c6-896b-4419-a849-dd66d765c6f9",
             "version": [0, 0, 1]
         }
     ]
