@@ -1,5 +1,5 @@
 gamerule sendcommandfeedback false
-gamerule immediaterespawn true
+gamerule doimmediaterespawn true
 tickingarea add ~-2 310 ~-2 ~2 320 ~2 tick
 fill ~-2 310 ~-2 ~2 310 ~2 barrier
 summon armor_stand "oper" ~ 311 ~
